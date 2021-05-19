@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<timers xmlns="urn:jboss:wildfly:ejb-timers:1.0">
+    <calendar-timer timed-object-id="prueba.prueba.Proceso" timer-id="7f190487-73aa-443a-b083-f75534a30d7b" next-date="1617325200000" timer-state="ACTIVE" schedule-expr-second="0" schedule-expr-minute="*/30" schedule-expr-hour="*" schedule-expr-day-of-week="*" schedule-expr-day-of-month="*" schedule-expr-month="*" schedule-expr-year="*">
+        <info>
+            Az4OMTVNaW5TY2hlZHVsZXI=
+        </info>
+        <timeout-method declaring-class="py.com.progweb.prueba.proceso.Proceso" name="doSomeThing"/>
+    </calendar-timer>
+</timers>

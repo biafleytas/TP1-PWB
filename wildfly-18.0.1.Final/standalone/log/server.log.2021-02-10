@@ -1,0 +1,336 @@
+2021-02-10 17:55:46,886 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\deployments
+2021-02-10 17:55:46,949 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/laboratorio]
+2021-02-10 17:55:46,949 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-02-10 17:55:47,368 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-02-10 17:55:47,482 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.3.0.Final (Apache CXF 3.3.3) 
+2021-02-10 17:55:47,657 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-02-10 17:55:47,660 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-02-10 17:55:47,661 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-02-10 17:55:47,665 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 18.0.1.Final (WildFly Core 10.0.3.Final) started in 4634ms - Started 323 of 585 services (370 services are lazy, passive or on-demand)
+2021-02-10 17:59:09,400 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final
+2021-02-10 17:59:09,920 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2021-02-10 17:59:09,943 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2021-02-10 17:59:10,169 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 18.0.1.Final (WildFly Core 10.0.3.Final) starting
+2021-02-10 17:59:10,172 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files (x86)\Java\jre1.8.0_281\lib\endorsed
+	java.ext.dirs = C:\Program Files (x86)\Java\jre1.8.0_281\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files (x86)\Java\jre1.8.0_281
+	java.io.tmpdir = C:\Users\SONIA\AppData\Local\Temp\
+	java.library.path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Sybase\SQL Anywhere 9\win32;C:\Program Files (x86)\Sybase\Shared\win32;C:\Program Files (x86)\Sybase\SQL Anywhere 9\drivers;C:\Program Files (x86)\Sybase\Shared\Sybase Central 4.3\win32;C:\Program Files\Git\cmd;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\SONIA\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\SONIA\AppData\Local\Programs\Python\Python39\;C:\Users\SONIA\AppData\Local\Microsoft\WindowsApps;C:\Users\SONIA\AppData\Local\atom\bin;C:\Users\SONIA\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_281-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_281
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) Client VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.281-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final
+	jboss.host.name = laptop-qkm9qceg
+	jboss.modules.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = laptop-qkm9qceg
+	jboss.qualified.host.name = laptop-qkm9qceg
+	jboss.server.base.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\log
+	jboss.server.name = laptop-qkm9qceg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\modules
+	org.jboss.boot.log.file = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 32
+	sun.boot.class.path = C:\Program Files (x86)\Java\jre1.8.0_281\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_281\classes
+	sun.boot.library.path = C:\Program Files (x86)\Java\jre1.8.0_281\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\jboss-modules.jar -mp C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot Client Compiler
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = PY
+	user.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final
+	user.home = C:\Users\SONIA
+	user.language = es
+	user.name = SONIA
+	user.script = 
+	user.timezone = America/Asuncion
+	user.variant = 
+2021-02-10 17:59:10,173 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\log/server.log -Dlogging.configuration=file:C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\configuration/logging.properties -Djboss.home.dir=C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final -Djboss.server.base.dir=C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone -Djboss.server.config.dir=C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\configuration 
+2021-02-10 17:59:11,144 INFO  [org.wildfly.security] (ServerService Thread Pool -- 26) ELY00001: WildFly Elytron version 1.10.4.Final
+2021-02-10 17:59:11,749 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-02-10 17:59:11,788 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 5) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-02-10 17:59:11,882 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-02-10 17:59:11,915 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.7.3.Final
+2021-02-10 17:59:11,931 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.7.3.Final
+2021-02-10 17:59:11,960 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-02-10 17:59:11,994 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-02-10 17:59:12,008 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activating Naming Subsystem
+2021-02-10 17:59:12,020 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2021-02-10 17:59:12,023 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2021-02-10 17:59:12,024 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2021-02-10 17:59:12,028 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activating Security Subsystem
+2021-02-10 17:59:12,038 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy version 3.9.1.Final
+2021-02-10 17:59:12,039 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2021-02-10 17:59:12,040 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2021-02-10 17:59:12,059 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.17.Final)
+2021-02-10 17:59:12,072 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activating WebServices Extension
+2021-02-10 17:59:12,079 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2021-02-10 17:59:12,095 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-02-10 17:59:12,131 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-02-10 17:59:12,142 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.0.27.Final starting
+2021-02-10 17:59:12,163 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2021-02-10 17:59:12,176 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2021-02-10 17:59:12,177 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = postgres
+2021-02-10 17:59:12,181 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-02-10 17:59:12,285 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creating file handler for path 'C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-02-10 17:59:12,768 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2021-02-10 17:59:12,776 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-02-10 17:59:12,776 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-02-10 17:59:12,808 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.15.Final
+2021-02-10 17:59:12,809 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2021-02-10 17:59:12,812 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2021-02-10 17:59:12,875 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service org.wildfly.undertow.listener.default: org.jboss.msc.service.StartException in service org.wildfly.undertow.listener.default: Address already in use: bind /127.0.0.1:8080
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:209)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-02-10 17:59:12,901 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2021-02-10 17:59:12,903 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: EJB subsystem suspension complete
+2021-02-10 17:59:12,922 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-02-10 17:59:12,929 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\deployments
+2021-02-10 17:59:12,973 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/laboratorio]
+2021-02-10 17:59:12,973 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-02-10 17:59:12,990 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service org.wildfly.management.http.extensible: org.jboss.msc.service.StartException in service org.wildfly.management.http.extensible: java.net.BindException: Address already in use: bind /127.0.0.1:9990
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:385)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-02-10 17:59:13,353 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service org.wildfly.undertow.listener.https: org.jboss.msc.service.StartException in service org.wildfly.undertow.listener.https: Address already in use: bind /127.0.0.1:8443
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:209)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Unknown Source)
+
+2021-02-10 17:59:13,359 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.management.http.extensible" => "java.net.BindException: Address already in use: bind /127.0.0.1:9990"}}
+2021-02-10 17:59:13,477 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.undertow.listener.default" => "Address already in use: bind /127.0.0.1:8080"}}
+2021-02-10 17:59:13,478 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("https-listener" => "https")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.undertow.listener.https" => "Address already in use: bind /127.0.0.1:8443"}}
+2021-02-10 17:59:13,485 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.management.http.extensible" => "java.net.BindException: Address already in use: bind /127.0.0.1:9990"}}
+2021-02-10 17:59:13,501 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2021-02-10 17:59:13,503 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/laboratorio]
+2021-02-10 17:59:13,503 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2021-02-10 17:59:13,518 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2021-02-10 17:59:13,524 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2021-02-10 17:59:13,524 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2021-02-10 17:59:13,525 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.0.27.Final stopping
+2021-02-10 17:59:13,566 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2021-02-10 17:59:13,582 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 18.0.1.Final (WildFly Core 10.0.3.Final) stopped in 9ms
+2021-02-10 18:00:28,963 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final
+2021-02-10 18:00:29,422 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2021-02-10 18:00:29,448 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2021-02-10 18:00:29,634 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 18.0.1.Final (WildFly Core 10.0.3.Final) starting
+2021-02-10 18:00:29,637 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files (x86)\Java\jre1.8.0_281\lib\endorsed
+	java.ext.dirs = C:\Program Files (x86)\Java\jre1.8.0_281\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files (x86)\Java\jre1.8.0_281
+	java.io.tmpdir = C:\Users\SONIA\AppData\Local\Temp\
+	java.library.path = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Sybase\SQL Anywhere 9\win32;C:\Program Files (x86)\Sybase\Shared\win32;C:\Program Files (x86)\Sybase\SQL Anywhere 9\drivers;C:\Program Files (x86)\Sybase\Shared\Sybase Central 4.3\win32;C:\Program Files\Git\cmd;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\SONIA\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\SONIA\AppData\Local\Programs\Python\Python39\;C:\Users\SONIA\AppData\Local\Microsoft\WindowsApps;C:\Users\SONIA\AppData\Local\atom\bin;C:\Users\SONIA\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_281-b09
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_281
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) Client VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.281-b09
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final
+	jboss.host.name = laptop-qkm9qceg
+	jboss.modules.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = laptop-qkm9qceg
+	jboss.qualified.host.name = laptop-qkm9qceg
+	jboss.server.base.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\log
+	jboss.server.name = laptop-qkm9qceg
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\modules
+	org.jboss.boot.log.file = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 32
+	sun.boot.class.path = C:\Program Files (x86)\Java\jre1.8.0_281\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_281\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_281\classes
+	sun.boot.library.path = C:\Program Files (x86)\Java\jre1.8.0_281\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\jboss-modules.jar -mp C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot Client Compiler
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = PY
+	user.dir = C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final
+	user.home = C:\Users\SONIA
+	user.language = es
+	user.name = SONIA
+	user.script = 
+	user.timezone = America/Asuncion
+	user.variant = 
+2021-02-10 18:00:29,638 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\log/server.log -Dlogging.configuration=file:C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\configuration/logging.properties -Djboss.home.dir=C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final -Djboss.server.base.dir=C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone -Djboss.server.config.dir=C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\configuration 
+2021-02-10 18:00:30,615 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.10.4.Final
+2021-02-10 18:00:31,282 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-02-10 18:00:31,316 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 5) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-02-10 18:00:31,371 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-02-10 18:00:31,397 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.7.3.Final
+2021-02-10 18:00:31,413 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.7.3.Final
+2021-02-10 18:00:31,465 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-02-10 18:00:31,469 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2021-02-10 18:00:31,470 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2021-02-10 18:00:31,480 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-02-10 18:00:31,482 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activating Naming Subsystem
+2021-02-10 18:00:31,496 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activating Security Subsystem
+2021-02-10 18:00:31,499 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy version 3.9.1.Final
+2021-02-10 18:00:31,499 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.17.Final)
+2021-02-10 18:00:31,506 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2021-02-10 18:00:31,513 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activating WebServices Extension
+2021-02-10 18:00:31,521 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2021-02-10 18:00:31,525 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2021-02-10 18:00:31,525 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2021-02-10 18:00:31,542 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-02-10 18:00:31,588 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.0.27.Final starting
+2021-02-10 18:00:31,599 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-02-10 18:00:31,606 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2021-02-10 18:00:31,644 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2021-02-10 18:00:31,643 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = postgres
+2021-02-10 18:00:31,657 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-02-10 18:00:31,745 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creating file handler for path 'C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-02-10 18:00:32,234 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2021-02-10 18:00:32,238 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-02-10 18:00:32,238 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-02-10 18:00:32,273 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.15.Final
+2021-02-10 18:00:32,281 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2021-02-10 18:00:32,283 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2021-02-10 18:00:32,355 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2021-02-10 18:00:32,368 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2021-02-10 18:00:32,382 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: EJB subsystem suspension complete
+2021-02-10 18:00:32,391 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-02-10 18:00:32,400 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\deployments
+2021-02-10 18:00:32,460 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/laboratorio]
+2021-02-10 18:00:32,460 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-02-10 18:00:32,904 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-02-10 18:00:33,026 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.3.0.Final (Apache CXF 3.3.3) 
+2021-02-10 18:00:33,208 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-02-10 18:00:33,211 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-02-10 18:00:33,212 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-02-10 18:00:33,216 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 18.0.1.Final (WildFly Core 10.0.3.Final) started in 4709ms - Started 323 of 585 services (370 services are lazy, passive or on-demand)
+2021-02-10 18:10:30,091 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\78\4afaee3742d0a45617a186d7aacae85d0d5b8c is obsolete and will be removed
+2021-02-10 18:10:30,106 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\78\4afaee3742d0a45617a186d7aacae85d0d5b8c\content
+2021-02-10 18:10:30,106 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\3f\0315521b91d1d104765be628bf02f4e14fbd3c is obsolete and will be removed
+2021-02-10 18:10:30,114 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\3f\0315521b91d1d104765be628bf02f4e14fbd3c\content
+2021-02-10 18:10:30,114 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\6d\52b2a60c654dcb43a1c60b1b164fc147d064f5 is obsolete and will be removed
+2021-02-10 18:10:30,114 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\6d\52b2a60c654dcb43a1c60b1b164fc147d064f5\content
+2021-02-10 18:10:30,114 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\99\43232dca007cfdc4f6e98cb56fc88537c11436 is obsolete and will be removed
+2021-02-10 18:10:30,130 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\99\43232dca007cfdc4f6e98cb56fc88537c11436\content
+2021-02-10 18:10:30,130 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\d9\ed73d94bee5d5151a965e3270832f79e1a2598 is obsolete and will be removed
+2021-02-10 18:10:30,138 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\d9\ed73d94bee5d5151a965e3270832f79e1a2598\content
+2021-02-10 18:10:30,138 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\1a\490a2baedd76cfedaa387691931521134bcd5b is obsolete and will be removed
+2021-02-10 18:10:30,146 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\1a\490a2baedd76cfedaa387691931521134bcd5b\content
+2021-02-10 18:10:30,146 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\4b\19357f579ef91a0f4afdf5cd506276ec9b9216 is obsolete and will be removed
+2021-02-10 18:10:30,154 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location C:\Users\SONIA\Desktop\Facu 2021\E3-Backend\wildfly-18.0.1.Final\standalone\data\content\4b\19357f579ef91a0f4afdf5cd506276ec9b9216\content
